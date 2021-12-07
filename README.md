@@ -13,5 +13,5 @@ repo init -u https://github.com/Santoni-caf/manifest
 ```
 Then to sync up:
 ```
-repo sync
+repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
