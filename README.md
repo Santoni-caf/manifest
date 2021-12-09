@@ -9,7 +9,7 @@ familiar with [Repo](https://source.android.com/source/using-repo.html) and [Ver
 
 To initialize your local repository using the LineageOS trees, use a command like this:
 ```
-repo init -u https://github.com/Santoni-caf/manifest
+repo init --depth=1 -u https://github.com/Santoni-caf/manifest
 ```
 Then to sync up:
 ```
